@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
               />
             </a>
           </Link>
-          <h2 className={utilSyles.headingLg}>
+          <h2 className={utilSyles.heading2Xl}>
             <Link href="/">
               <a>{description}</a>
             </Link>

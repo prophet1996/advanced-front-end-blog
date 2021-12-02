@@ -11,9 +11,7 @@ export default function Home({ allPostsData }) {
             {allPostsData.map((postData) => {
               return (
                 <div style={{ margin: "20px", textAlign: "center" }}>
-                  <Link href={`/posts/${postData.title}`}>
-                    {postData.title}
-                  </Link>
+                  <Link href={`/posts/${postData.id}`}>{postData.title}</Link>
                 </div>
               );
             })}
