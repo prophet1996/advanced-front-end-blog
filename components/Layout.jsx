@@ -18,8 +18,8 @@ export default function Layout({ children, home }) {
         <>
           <Image
             src="/images/profile.svg"
-            height="110px"
-            width="110px"
+            height="110"
+            width="110"
             alt="profile picture"
           />
           <h1 className={utilSyles.heading2Xl}>{description}</h1>
@@ -30,8 +30,8 @@ export default function Layout({ children, home }) {
             <a>
               <Image
                 src="/images/profile.svg"
-                height="110px"
-                width="110px"
+                height="110"
+                width="110"
                 al="profile picture"
               />
             </a>
